@@ -1,5 +1,13 @@
 # Download Duolingo results daily
 
+Run function from menu - config sheet gets created.
+
+In config, add a name and JSON profile link as URL for each account you want to track.
+
+JSON profile can be seen in F12 browser debugger, Network tab, when opening Duolingo public profile - looks like https://www.duolingo.com/2017-06-30/users?username=XXX
+
+Then run this function as timer triggered (Extensions -> Apps Scripts -> Triggers -> Add time based trigger, run importDuolingoProfiles every day).
+
 Using balena-google-apps-script-sheet-skeleton
 Skeleton template for google apps script sheets projects.
 
